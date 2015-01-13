@@ -6,6 +6,13 @@
 	
 	
 	
+What is osascript?
+
+http://www.hackmac.org/tutorials/run-applescript-from-the-command-line/
+	
+	
+	
+	
 http://askubuntu.com/questions/28564/run-simple-bash-script-to-start-applications-at-login
 
 	echo "start spotify"
