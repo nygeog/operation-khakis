@@ -10,7 +10,7 @@ What is osascript?
 
 http://www.hackmac.org/tutorials/run-applescript-from-the-command-line/
 	
-	
+###GOT Spotify 0.6xx on my PowerBook G4	
 	
 	
 http://askubuntu.com/questions/28564/run-simple-bash-script-to-start-applications-at-login
