@@ -2,6 +2,15 @@
 
 
 ###New Stuff:
+
+Got it with the python file and appscript-1.0.1
+
+Also see this for using appscript with safari
+
+http://stackoverflow.com/questions/4752473/opening-and-using-safari
+
+
+
 #####PySpotify
 
 https://pyspotify.mopidy.com/en/latest/
