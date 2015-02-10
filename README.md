@@ -7,7 +7,11 @@
 https://pyspotify.mopidy.com/en/latest/
 
 
+	Warning
 
+	pyspotify and all other libspotify applications required a Spotify Premium subscription.
+
+	The Free Spotify subscription, or the old Unlimited subscription, will not work with pyspotify or any other applications using libspotify.
 
 
 
