@@ -9,7 +9,8 @@ pause = 18000
 
 for i in range(1,5): #change this to the number of times you want the loop to run, + 1, 1,5 runs only 4 times. 
 	#theURL = 'http://open.spotify.com/user/nygeog/playlist/3ig96iljYPAV3kbe3WK4ct' #NYGeog latest mix playlst
-	theURL = 'http://open.spotify.com/user/pilotsuits/playlist/6EyyKO72lOydoNMFEVwjct'  #PilotSuits Playlist. 
+	#theURL = 'http://open.spotify.com/user/pilotsuits/playlist/6EyyKO72lOydoNMFEVwjct'  #PilotSuits Playlist. 
+	theURL = 'http://open.spotify.com/user/frandukes/playlist/073AS20Rk1IXydWjtH5keD' #The LH2B Playlist
 
 	safari = app("Safari")
 	safari.make(new=k.document,with_properties={k.URL:theURL})
