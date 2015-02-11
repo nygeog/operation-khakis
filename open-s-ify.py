@@ -5,6 +5,7 @@ from appscript import *
 
 ##GOTTA INSTALL appscript https://pypi.python.org/pypi/appscript/
 pause = 10 #this is in seconds, change to how long it'll take for the FREE acount playlist to run out.  Every 5 hours is 18000 seconds
+pause = 18000 
 
 for i in range(1,5): #change this to the number of times you want the loop to run, + 1, 1,5 runs only 4 times. 
 	#theURL = 'http://open.spotify.com/user/nygeog/playlist/3ig96iljYPAV3kbe3WK4ct' #NYGeog latest mix playlst
