@@ -65,6 +65,9 @@ http://www.hackmac.org/tutorials/run-applescript-from-the-command-line/
 	Which yields a daily profit of $0.377292576419
 	And a yearly profit of $137.711790393
 	Netting $107.711790393 per year	
+
+###ADD COMMERCIALS LENGTH TO CALCS, are they 15, 30 seconds? 
+
 	
 http://askubuntu.com/questions/28564/run-simple-bash-script-to-start-applications-at-login
 
@@ -75,3 +78,8 @@ http://askubuntu.com/questions/28564/run-simple-bash-script-to-start-application
 
 
 http://mitchfournier.com/2013/03/26/install-command-line-spotify-on-a-headless-raspberry-pi/
+
+Spotify server on Raspberry Pi 
+http://lifehacker.com/5992037/turn-your-raspberry-pi-into-a-spotify-server
+http://hackaday.com/2013/03/14/raspberry-pi-as-a-spotify-server-with-mpd-control/
+http://www.pimusicbox.com/
