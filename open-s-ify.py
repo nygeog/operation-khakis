@@ -3,9 +3,10 @@ import urllib
 import webbrowser
 from appscript import *
 
+
 ##GOTTA INSTALL appscript https://pypi.python.org/pypi/appscript/
-pause = 10 #this is in seconds, change to how long it'll take for the FREE acount playlist to run out.  Every 5 hours is 18000 seconds
-pause = 18000 
+pause = 20 #this is in seconds, change to how long it'll take for the FREE acount playlist to run out.  Every 5 hours is 18000 seconds
+#pause = 18000 
 
 for i in range(1,5): #change this to the number of times you want the loop to run, + 1, 1,5 runs only 4 times. 
 	#theURL = 'http://open.spotify.com/user/nygeog/playlist/3ig96iljYPAV3kbe3WK4ct' #NYGeog latest mix playlst
@@ -13,8 +14,13 @@ for i in range(1,5): #change this to the number of times you want the loop to ru
 	#theURL = 'http://open.spotify.com/user/frandukes/playlist/073AS20Rk1IXydWjtH5keD' #The LH2B Playlist
 	theURL = 'https://play.spotify.com/user/lh2b/playlist/0H3p1513EtVTjEw0UROtF4' #the vasquez
 
-	safari = app("Safari")
-	safari.make(new=k.document,with_properties={k.URL:theURL})
+	# safari = app("Safari")
+	# safari.make(new=k.document,with_properties={k.URL:theURL})
+
+	#chrome = app("Google Chrome")
+	#chrome.make(new=k.document,with_properties={k.URL:theURL})
+
+	webbrowser.open(theURL)
 
 	print 'Loop '+str(i)+' script started at this time: ' + time.strftime('%c') 
 	time.sleep(pause)
