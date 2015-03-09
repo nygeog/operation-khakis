@@ -6,7 +6,7 @@ from appscript import *
 
 ##GOTTA INSTALL appscript https://pypi.python.org/pypi/appscript/
 pause = 20 #this is in seconds, change to how long it'll take for the FREE acount playlist to run out.  Every 5 hours is 18000 seconds
-#pause = 18000 
+#pause = 18000  #5 hours
 
 for i in range(1,5): #change this to the number of times you want the loop to run, + 1, 1,5 runs only 4 times. 
 	#theURL = 'http://open.spotify.com/user/nygeog/playlist/3ig96iljYPAV3kbe3WK4ct' #NYGeog latest mix playlst
@@ -16,9 +16,6 @@ for i in range(1,5): #change this to the number of times you want the loop to ru
 
 	# safari = app("Safari")
 	# safari.make(new=k.document,with_properties={k.URL:theURL})
-
-	#chrome = app("Google Chrome")
-	#chrome.make(new=k.document,with_properties={k.URL:theURL})
 
 	webbrowser.open(theURL)
 
