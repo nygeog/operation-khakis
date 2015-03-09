@@ -12,7 +12,7 @@ for i in range(1,5): #change this to the number of times you want the loop to ru
 	#theURL = 'http://open.spotify.com/user/nygeog/playlist/3ig96iljYPAV3kbe3WK4ct' #NYGeog latest mix playlst
 	#theURL = 'http://open.spotify.com/user/pilotsuits/playlist/6EyyKO72lOydoNMFEVwjct'  #PilotSuits Playlist. 
 	#theURL = 'http://open.spotify.com/user/frandukes/playlist/073AS20Rk1IXydWjtH5keD' #The LH2B Playlist
-	theURL = 'https://play.spotify.com/user/lh2b/playlist/0H3p1513EtVTjEw0UROtF4' #the vasquez
+	theURL = 'https://open.spotify.com/user/lh2b/playlist/0H3p1513EtVTjEw0UROtF4' #the vasquez
 
 	# safari = app("Safari")
 	# safari.make(new=k.document,with_properties={k.URL:theURL})
